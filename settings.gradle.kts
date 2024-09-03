@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "lint-repro"
 include(":app")
+include(":rules")
