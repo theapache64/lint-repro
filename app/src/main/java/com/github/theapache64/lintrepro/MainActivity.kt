@@ -18,13 +18,22 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        Log.d("X","okay")
+        null!!
+
+
     }
+
 
 
 }
 
-sealed interface Foo
 
-// but this won't
-object Bar : Foo
+sealed interface Foo {
+    // but this won't
+    data object Bar : Foo
+}
+
+
+
+
+
